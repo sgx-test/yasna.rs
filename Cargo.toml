@@ -27,6 +27,7 @@ features = ["num-bigint", "bit-vec", "chrono", "std"]
 
 [dependencies.num-bigint]
 version = "0.4"
+default-features = false
 optional = true
 
 [dev-dependencies.num-traits]
